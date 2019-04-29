@@ -54,7 +54,7 @@ Inspection data. You'll be returning a boro-average score.
 Specifications
 ^^^^^^^^^^^^^^
 
-#.  Create a file named ``boroughs.py``
+#.  Open a new Jupyter notebook
 
 #.  Recreate the following grading scale as a dictionary with float values:
 
@@ -103,7 +103,7 @@ Specifications
         per boro (who have scores), and the average score (as a float) for that
         boro.
 
-Examples
+Output
 ^^^^^^^^
 
 .. code:: pycon
@@ -131,7 +131,7 @@ Specifications
     currently held in the city. We'll be reducing this data to a count of
     markets per borough.
 
-#.  Open ``boroughs.py``, we'll be working in this file again.
+#.  Use the same notebook as in the prior task
 
 #.  Import the ``json`` module.
 
@@ -147,7 +147,7 @@ Specifications
 
     #.  Return a dictionary of the number of green markets per borough.
 
-Examples
+Output
 ^^^^^^^^
 
 .. code:: pycon
@@ -175,7 +175,7 @@ demonstrates the power of I/O methods in Python quite well.
 Specifications
 ^^^^^^^^^^^^^^
 
-#.  Open ``boroughs.py``
+#.  Use the same notebook as before
 
 #.  Create a new function, ``correlate_data()``
 
@@ -205,48 +205,7 @@ Specifications
         data dictionary to a file (the one occupying the third argument in
         the function call).
 
-Executing Tests
-===============
 
-Code must be functional and pass tests before it will be eligible for credit.
-
-Linting
--------
-
-Lint tests check your code for syntactic or stylistic errors To execute lint
-tests against a specific file, simply open a terminal in the same directory as
-your code repository and type:
-
-.. code:: console
-
-    $ pylint filename.py
-
-Where ``filename.py`` is the name of the file you wish to lint test.
-
-Unit Tests
-----------
-
-Unit tests check that your code performs the tested objectives. Unit tests
-may be executed individually by opening a terminal in the same directory as
-your code repository and typing:
-
-.. code:: console
-
-    $ nosetests tests/name_of_test.py
-
-Where ``name_of_test.py`` is the name of the testfile found in the ``tests``
-directory of your source code.
-
-Running All Tests
------------------
-
-All tests may be run simultaneously by executing the ``runtests.sh`` script
-from the root of your assignment repository. To execute all tests, open a
-terminal in the same directory as your code repository and type:
-
-.. code:: console
-
-    $ ./runtests.sh
 
 Submission
 ==========
