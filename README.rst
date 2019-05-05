@@ -198,8 +198,8 @@ Specifications
         The result of this should be similar to:
 
         .. code:: python
-
-            {'BRONX': (0.9762820512820514, 0.1987179487179487)}
+            
+            {'BRONX': (0.9762820512820514, 0.20512820512820512)}
 
     #.  Finally, use the json module's ``dump()`` method to write the combined
         data dictionary to a file (the one occupying the third argument in
